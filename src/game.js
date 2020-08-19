@@ -17,7 +17,8 @@ const gameBoard = document.getElementById("game-board");
 function main(currentTime) {
   if (gameOver) {
     if (confirm("游戏结束，点确定便重新开始~")) {
-      window.location = "/src/index.html";
+      window.location = './'
+      
     }
     return;
   }
